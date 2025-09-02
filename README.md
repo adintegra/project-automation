@@ -1,15 +1,15 @@
 # GitHub Project Automation
 
-A modular GitHub project setup automation tool that creates projects, issues, and manages project board statuses.
+A simple, modular, POC GitHub project setup automation tool that creates projects, issues, and sets project board statuses.
 
 ## Usage
 
 ```bash
-# Create issues and add them to project with Todo status
-node src/index.js --create-issues
-
 # Create a new project
 node src/index.js --create-project
+
+# Create issues and add them to project with Todo status
+node src/index.js --create-issues
 
 # Both options can be combined
 node src/index.js --create-project --create-issues
