@@ -1,6 +1,12 @@
 # GitHub Project Automation
 
-A simple, modular, POC GitHub project setup automation tool that creates projects, issues, and sets project board statuses.
+A super simple, modular, PoC GitHub project setup automation tool that creates projects, issues, and sets project board statuses.
+
+## Prerequisites
+
+Create a personal [GitHub access token](https://github.com/settings/tokens) with `repo`, `user`, and `project` scopes.
+
+From the [example](.env.example) provided, create an `.env` file with your desired configuration.
 
 ## Usage
 
